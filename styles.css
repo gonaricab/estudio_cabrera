@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(180, 17%, 63%);   
 }
 .grid {
     display: grid;
@@ -18,7 +17,7 @@
     display: flex;
     grid-area: header;
     font-size: 50px;
-    
+    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white); 
 }
  .imagen {
     display: flex;
@@ -26,19 +25,17 @@
     align-items: center;
     justify-content: center;
     margin-left: 100px;
-    
 }
 .navegacion {
     grid-area: nav;
     border: 03px solid;
-    
+    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white); 
 }
 .navegacion ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    list-style-type: none;
-   
+    list-style-type: none;  
 }
 
 .texto {
@@ -59,7 +56,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    
+    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white);  
 }
 @media  screen and  (max-width:480px)
 {
