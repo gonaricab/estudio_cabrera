@@ -1,0 +1,37 @@
+.container-fluid {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(172, 172, 172);
+}
+.barra {
+    padding: 5px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.barra li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.contenedor {
+    margin-top: 50px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
