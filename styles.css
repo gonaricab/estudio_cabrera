@@ -2,9 +2,14 @@
     font-family: 'Roboto', sans-serif;
     background-color: rgb(172, 172, 172);
 }
+
+.titulo h1 {
+    display: flex;
+    text-align: center;
+}
 .barra {
     padding: 5px;
-    background-color: white;
+    background-color: rgb(149, 146, 146);
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
@@ -24,14 +29,13 @@
 }
 
 .footer {
-    background-color: white;
+    background-color: rgb(149, 146, 146);
     margin-top: 100px;
     text-align: center;
 }
 
 .imagen {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+    margin-left: 200px;
 }
+
