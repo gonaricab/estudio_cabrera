@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .grid {
     display: grid;
@@ -17,7 +17,6 @@
     display: flex;
     grid-area: header;
     font-size: 50px;
-    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white); 
 }
  .imagen {
     display: flex;
@@ -28,16 +27,24 @@
 }
 .navegacion {
     grid-area: nav;
-    border: 03px solid;
-    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white); 
+    
 }
 .navegacion ul {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style-type: none;  
 }
 
+.navegacion ul li {
+    margin-right: 20px;
+    font-weight: bolder;
+
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
 .texto {
     grid-area: section2;
     text-align: justify;
@@ -56,7 +63,6 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background-image: linear-gradient( to bottom, rgb(123, 117, 117), white);  
 }
 @media  screen and  (max-width:480px)
 {
