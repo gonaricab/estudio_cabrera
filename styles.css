@@ -7,17 +7,18 @@
     font-size: 75px;
 }
 
-
 .barra li {   
-    font-weight: bolder;
+    font-weight: bolder;   
 }
 
-a:link, a:visited,  a:hover, a:active
-{
-    color: #000000;
-    text-decoration: none;
+.barra li a {
+    transition: all 0.5s;
 }
 
+.barra li a:hover {
+    padding: 5px;
+    background-color: grey;
+}
 .contenedor {
     margin-top: 50px;
     text-align: justify;
@@ -40,6 +41,16 @@ a:link, a:visited,  a:hover, a:active
     width: 1300px;
     height: 500px;
 
+}
+.formulario button {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.formulario button:hover {
+    background-color: white;
+    color: black;
 }
 
 
