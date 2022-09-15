@@ -36,8 +36,10 @@ a:link, a:visited,  a:hover, a:active
   
 }
 .imagen img {
+    display: flex;
     width: 1300px;
     height: 500px;
+
 }
 
 
