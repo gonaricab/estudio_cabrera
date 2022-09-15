@@ -42,8 +42,9 @@ a:link, a:visited,  a:hover, a:active
 }
 
 .imagen {
-    display: flex;
+    
     width: 1000px;
+    grid-area: section1;
 }
 .texto {
     grid-area: section2;
