@@ -1,56 +1,74 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .titulo h1 {
-    display: flex;
-    font-size: 75px;
+  display: flex;
+  font-size: 75px;
 }
 
-.barra li {   
-    font-weight: bolder;   
+.barra li {
+  font-weight: bolder;
 }
-
 .barra li a {
-    transition: all 0.5s;
+  transition: all 0.5s;
+}
+.barra li a:hover {
+  padding: 5px;
+  background-color: grey;
 }
 
-.barra li a:hover {
-    padding: 5px;
-    background-color: grey;
-}
 .contenedor {
-    margin-top: 50px;
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-top: 50px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer {
-    margin-top: 100px;
-    text-align: center;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .imagen {
-    display: flex;
-    justify-content: center;
-  
+  display: flex;
+  justify-content: center;
 }
 .imagen img {
-    display: flex;
-    width: 1300px;
-    height: 500px;
-
-}
-.formulario button {
-    background-color: black;
-    color: white;
-    transition: all 0.5s;
+  display: flex;
+  width: 1300px;
+  height: 500px;
 }
 
-.formulario button:hover {
-    background-color: white;
-    color: black;
+button {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: white;
+  color: black;
 }
 
+input::-webkit-file-upload-button {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 
+input::file-selector-button {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+input::-webkit-file-upload-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+input::file-selector-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
