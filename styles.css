@@ -2,7 +2,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-.titulo h1 {
+h1 {
   display: flex;
   font-size: 75px;
 }

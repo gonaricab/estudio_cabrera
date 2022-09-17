@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabaja con Nosotros - Estudio Cabrera & Amado & Asociados</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="container-fluid">
     <section class="row">
         <section class="col">
             <h1>Estudio Cabrera & Amado & Asociados</h1>
-        </section>
-        <section class="col">
-                <img src="../images/logo1.jpg" alt="logo" class="imagen">
         </section>
     </section> 
     <section class="row">
@@ -55,7 +55,7 @@
         </section>
     </section>
     <section class="row">
-        <section class="col">
+        <section class="col contenedor">
             <form>
                 <fieldset>
                     <legend>Envianos tu CV</legend>
@@ -70,8 +70,11 @@
                     <br>
                     <label for="correo">Ingresá tu correo electrónico:</label>
                     <input id="correo" type="email">
-                    <br>
-                    <label for="descripcion">Escribe una breve descripción sobre ti:</label>
+                </fieldset>
+            </form>
+        </section>
+        <section class="col contenedor">
+            <label for="descripcion">Escribe una breve descripción sobre ti:</label>
                     <br>
                     <textarea cols="60" rows="10"></textarea>
                     <br>
@@ -81,8 +84,6 @@
                     <br>
                     <button>Enviar</button>
                     <button>Cancelar</button>
-                </fieldset>
-            </form>
         </section>
     </section>
     <section class="row">
