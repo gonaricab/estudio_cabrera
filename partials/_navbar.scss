@@ -1,0 +1,10 @@
+.barra li {
+    font-weight: bolder;   
+    a   {
+    transition: all 0.5s;
+        &:hover {
+        padding: 5px;
+        background-color: grey;
+        }
+    }
+}   
