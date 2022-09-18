@@ -1,0 +1,10 @@
+input::file-selector-button {
+    background-color: $color_negro;
+    color: $color_blanco;
+    transition:  all 0.5s;
+        &:hover {
+            background-color: $color_blanco;
+            color: $color_negro;
+            cursor: pointer;
+        }
+}
