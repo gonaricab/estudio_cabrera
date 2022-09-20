@@ -74,4 +74,9 @@ h1 {
 .barra li a:hover {
   padding: 5px;
   background-color: grey;
+}
+
+.fieldset {
+  border: 1px solid;
+  padding: 20px;
 }/*# sourceMappingURL=styles.css.map */
