@@ -37,6 +37,10 @@ input:hover::file-selector-button {
   color: black;
 }
 
+.main {
+  margin-top: 50px;
+}
+
 .card p {
   text-align: justify;
 }
@@ -65,6 +69,7 @@ h1 {
 .imagen {
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }
 .imagen img {
   display: flex;
@@ -86,7 +91,7 @@ h1 {
 .fieldset {
   border: 1px solid;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .conteiner:hover {
