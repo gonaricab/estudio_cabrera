@@ -1,4 +1,8 @@
 .conteiner {
+    margin-bottom:70px;
+    p {
+        font-size: 19px;
+    }
 &:hover {
     background-color: $color_negro;
     color: $color_blanco;

@@ -37,8 +37,13 @@ input:hover::file-selector-button {
   color: black;
 }
 
-.main {
-  margin-top: 50px;
+.carrusel {
+  margin-top: 10px;
+  height: 250px;
+  width: 250px;
+}
+.carrusel img {
+  margin-left: 600px;
 }
 
 .card p {
@@ -46,7 +51,7 @@ input:hover::file-selector-button {
 }
 
 .contenedor {
-  margin-top: 50px;
+  margin-top: 100px;
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
@@ -94,6 +99,12 @@ h1 {
   border-radius: 10px;
 }
 
+.conteiner {
+  margin-bottom: 70px;
+}
+.conteiner p {
+  font-size: 19px;
+}
 .conteiner:hover {
   background-color: black;
   color: white;
