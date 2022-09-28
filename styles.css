@@ -1,11 +1,3 @@
-input::-webkit-file-upload-button {
-  cursor: pointer;
-}
-
-input::file-selector-button {
-  cursor: pointer;
-}
-
 button {
   background-color: black;
   color: white;
@@ -14,6 +6,14 @@ button {
 button:hover {
   background-color: white;
   color: black;
+}
+
+input::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+input::file-selector-button {
+  cursor: pointer;
 }
 
 input::-webkit-file-upload-button {
@@ -37,21 +37,12 @@ input:hover::file-selector-button {
   color: black;
 }
 
-.carrusel {
-  margin-top: 10px;
-  height: 250px;
-  width: 250px;
-}
-.carrusel img {
-  margin-left: 600px;
-}
-
 .card p {
   text-align: justify;
 }
 
 .contenedor {
-  margin-top: 100px;
+  margin-top: 10px;
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px;
@@ -66,9 +57,27 @@ input:hover::file-selector-button {
   font-family: "Raleway", sans-serif;
 }
 
-h1 {
+.headerDos {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.titulo {
   display: flex;
-  font-size: 75px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.titulo h1 {
+  font-size: 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
 }
 
 .imagen {
@@ -82,8 +91,18 @@ h1 {
   height: 500px;
 }
 
+.flex div img {
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-left: 250px;
+  margin-right: 70px;
+}
+
 .barra li {
+  margin-bottom: 80px;
   font-weight: bolder;
+  font-size: 20px;
 }
 .barra li a {
   transition: all 0.5s;
@@ -100,7 +119,7 @@ h1 {
 }
 
 .conteiner {
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 .conteiner p {
   font-size: 19px;

@@ -7,3 +7,9 @@ button {
         color: map-get($colors, color_negro);
     }
 }
+
+input::file-selector-button {
+    @extend %buttonInput;
+    cursor: pointer;
+}
+
