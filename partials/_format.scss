@@ -1,3 +1,7 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+.fieldset{
+    @include fieldSet(10px);
+ }
+ 
