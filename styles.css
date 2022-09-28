@@ -41,6 +41,11 @@ input:hover::file-selector-button {
   text-align: justify;
 }
 
+.iFrame {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .contenedor {
   margin-top: 10px;
   text-align: justify;
@@ -127,4 +132,10 @@ h2 {
 .conteiner:hover {
   background-color: black;
   color: white;
+}
+
+.p2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
 }/*# sourceMappingURL=styles.css.map */
