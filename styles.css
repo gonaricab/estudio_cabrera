@@ -41,11 +41,6 @@ input:hover::file-selector-button {
   text-align: justify;
 }
 
-.iFrame {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .contenedor {
   margin-top: 10px;
   text-align: justify;
@@ -60,6 +55,12 @@ input:hover::file-selector-button {
 
 * {
   font-family: "Raleway", sans-serif;
+}
+
+.fieldset {
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .headerDos {
@@ -88,7 +89,7 @@ h2 {
 .imagen {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .imagen img {
   display: flex;
@@ -105,7 +106,8 @@ h2 {
 }
 
 .barra li {
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   font-weight: bolder;
   font-size: 20px;
 }
@@ -115,12 +117,6 @@ h2 {
 .barra li a:hover {
   padding: 5px;
   background-color: grey;
-}
-
-.fieldset {
-  border: 1px solid;
-  padding: 20px;
-  border-radius: 10px;
 }
 
 .conteiner {
