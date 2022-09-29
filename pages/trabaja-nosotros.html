@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="content" content="Aplicá a Nuestro Estudio cargando tu CV">
+    <meta name="keywords" content="abogados derecho estudio jurídico cabrera amado bahia blanca previsional empresas fusiones adquisiciones societario agronegocios bancos instituciones financieras consumidor inmobiliario">
     <title>Trabaja con Nosotros - Estudio Cabrera & Amado & Asociados</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="container-fluid">
-    <section class="row">
-        <section class="col">
+    <header class="row">
+        <section class="col titulo">
             <h1>Estudio Cabrera & Amado & Asociados</h1>
         </section>
-        <section class="col">
-                <img src="../images/logo1.jpg" alt="logo" class="imagen">
-        </section>
-    </section> 
+    </header> 
     <section class="row">
         <section class="col">
             <nav class="navbar navbar-expand-lg">
@@ -33,7 +35,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 barra">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 barra col d-flex justify-content-end navbar">
                         <li class="nav-item">
                             <a class="nav-link active" href="../index.html">Inicio</a>
                         </li>
@@ -54,49 +56,52 @@
             </nav>
         </section>
     </section>
-    <section class="row">
-        <section class="col">
-            <form>
-                <fieldset>
-                    <legend>Envianos tu CV</legend>
-                    <label for="nombre_apellido">Ingresa tu nombre y apellido:</label>
-                    <input id="nombre_apellido" type="text" >
-                    <br>
-                    <label for="telefono">Ingresá tu teléfono de contacto:</label>
-                    <input id="telefono" type="number">
-                    <br>
-                    <label for="localidad">Ingresá tu localidad:</label>
-                    <input id="localidad" type="text" >
-                    <br>
-                    <label for="correo">Ingresá tu correo electrónico:</label>
-                    <input id="correo" type="email">
-                    <br>
-                    <label for="descripcion">Escribe una breve descripción sobre ti:</label>
-                    <br>
-                    <textarea cols="60" rows="10"></textarea>
-                    <br>
-                    <label for="cv">Carga tu CV:</label>
-                    <input id="cv" type="file">
-                    <br>
-                    <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Cancelar">
-                </fieldset>
-            </form>
+    <main>
+        <section class="row">
+            <h2>Aplicá a nuestro Estudio:</h2>
+            <section class="col contenedor">
+                <form>
+                    <fieldset class="fieldset">
+                        <legend>Envianos tu CV:</legend>
+                        <label for="nombre_apellido">Ingresa tu nombre y apellido:</label>
+                        <input id="nombre_apellido" type="text" >
+                        <br>
+                        <label for="telefono">Ingresá tu teléfono de contacto:</label>
+                        <input id="telefono" type="number">
+                        <br>
+                        <label for="localidad">Ingresá tu localidad:</label>
+                        <input id="localidad" type="text" >
+                        <br>
+                        <label for="correo">Ingresá tu correo electrónico:</label>
+                        <input id="correo" type="email">
+                    </fieldset>
+                </form>
+            </section>
+            <section class="col contenedor fieldset">
+                <label for="descripcion">Escribe una breve descripción sobre ti:</label>
+                        <br>
+                        <textarea cols="60" rows="5"></textarea>
+                        <br>
+                        <label for="cv">Carga tu CV:</label>
+                        <input type="file" id="cv">
+                        <br>
+                        <br>
+                        <button>Enviar</button>
+                        <button>Cancelar</button>
+            </section>
         </section>
-    </section>
-    <section class="row">
-        <section class="col">
-            <footer class="footer">
-                <section>
-                    <a href="https://www.linkedin.com" target="_blank"><img src="../images/linkedin.png" width="35px"></a>
-                    <a href="https://www.facebook.com" target="_blank"><img src="../images/fb.png" width="35px"></a>
-                    <a href="https://www.twitter.com" target="_blank"><img src="../images/tw.png" width="35px"></a>
-                    <p>Bahía Blanca. Buenos Aires. Argentina. <br> 2022.Todos los derechos reservados.</p>
-                </section>
-            </footer>
+    </main>
+    <footer>
+        <section class="row">
+            <section class="col footer">
+                <a href="https://www.linkedin.com" target="_blank"><img src="../images/linkedin_black.png" width="35px"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="../images/fb_black.png" width="35px"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="../images/twitter_black.png" width="35px"></a>
+                <a href="https://youtube.com" target="_blank"><img src="../images/youtube_black.png" width="35px"></a>
+                <p>Bahía Blanca. Buenos Aires. Argentina. <br> 2022.Todos los derechos reservados.</p>            
+            </section>
         </section>
-    </section>
+    </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>

@@ -1,37 +1,137 @@
-.container-fluid {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(172, 172, 172);
+button {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
 }
-.barra {
-    padding: 5px;
-    background-color: white;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-    font-size: 20px;
+button:hover {
+  background-color: white;
+  color: black;
 }
 
-.barra li {
-    display: inline-block;
-    margin-left: 10px;
+input::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+input::file-selector-button {
+  cursor: pointer;
+}
+
+input::-webkit-file-upload-button {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+input::file-selector-button {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+input:hover::-webkit-file-upload-button {
+  background-color: white;
+  color: black;
+}
+input:hover::file-selector-button {
+  background-color: white;
+  color: black;
+}
+
+.card p {
+  text-align: justify;
 }
 
 .contenedor {
-    margin-top: 50px;
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer {
-    background-color: white;
-    margin-top: 100px;
-    text-align: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.fieldset {
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.headerDos {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.titulo h1 {
+  font-size: 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
 }
 
 .imagen {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
+.imagen img {
+  display: flex;
+  width: 1300px;
+  height: 500px;
+}
+
+.flex div img {
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-left: 250px;
+  margin-right: 70px;
+}
+
+.barra li {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.barra li a {
+  transition: all 0.5s;
+}
+.barra li a:hover {
+  padding: 5px;
+  background-color: grey;
+}
+
+.conteiner {
+  margin-bottom: 10px;
+}
+.conteiner p {
+  font-size: 19px;
+}
+.conteiner:hover {
+  background-color: black;
+  color: white;
+}
+
+.p2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}/*# sourceMappingURL=styles.css.map */
