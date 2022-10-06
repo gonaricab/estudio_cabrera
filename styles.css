@@ -119,6 +119,43 @@ h2 {
   background-color: grey;
 }
 
+.buscador {
+  display: flex;
+  justify-content: center;
+  transform: translate(0px, -70px);
+}
+.buscador input {
+  display: flex;
+  height: 90px;
+  width: 1000px;
+  box-shadow: 0 0 18px #848484;
+  border: 0;
+  background-image: url("./images/search_icon.png");
+  background-position: top;
+  background-position: right;
+  background-repeat: no-repeat;
+  outline: none;
+  background-size: 70px;
+}
+.buscador button {
+  font-weight: bolder;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 60px;
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+.buscador button:hover {
+  background-color: white;
+  color: black;
+}
+
 .conteiner {
   margin-bottom: 10px;
 }
