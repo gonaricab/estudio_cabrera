@@ -11,7 +11,7 @@
         }
     }
 } 
-
+/* barra para buscar del index */
 .buscador {
     display: flex;
     justify-content: center;
@@ -28,6 +28,10 @@
         background-repeat: no-repeat;
         outline: none;
         background-size: 70px;
+        font-size: 30px;
+        &::placeholder {
+            font-size: 30px;
+        }
     }
     button {
         font-weight: bolder;

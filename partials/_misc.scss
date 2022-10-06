@@ -1,0 +1,22 @@
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+/* clase fieldset para todos los recuadros */
+ .fieldset{
+    @include fieldSet(10px);
+    font-size: 18px;
+ }
+
+ /* Footer */
+ .footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* cards de bootstrap */
+ .card p {
+    text-align: justify;
+}
+

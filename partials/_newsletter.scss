@@ -1,0 +1,36 @@
+/* Newsletter de página contactos*/
+    .newsletter {
+    display: flex;
+    justify-content: center;
+    background-color:#ddd;
+    margin-top: 50px;
+    width: 550px;
+    height: 400px;
+    margin-left: 500px;
+    div {
+        h4 {
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: start;
+            margin-left: 10px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        button {
+            margin-top: 70px;
+            margin-left: 10px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        &:hover{
+            background-color: map-get($colors, color_blanco);
+            color: map-get($colors, color_negro);
+        }   
+        }
+    }
+    
+}

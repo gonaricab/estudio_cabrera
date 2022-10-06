@@ -1,3 +1,16 @@
 $color_negro: black;
 $color_blanco: white;
 
+/* color de las flechas de carrusel */
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
