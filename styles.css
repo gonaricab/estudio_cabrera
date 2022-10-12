@@ -127,12 +127,12 @@ h2 {
 }
 
 /* imágenes del carrusel */
-.flex div img {
-  align-items: center;
-  width: 150px;
-  height: 150px;
-  margin-left: 235px;
-  margin-right: 70px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 225px;
+  height: 225px;
 }
 
 .barra li {
