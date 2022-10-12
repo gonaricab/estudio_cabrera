@@ -10,6 +10,13 @@ button {
         color: map-get($colors, color_negro);
     }  
 }
+
+.card-body {
+    a {
+        display: flex;
+        text-decoration: none;
+    }
+}
 /* boton para input file */
 input::file-selector-button {
     @extend %buttonInput;

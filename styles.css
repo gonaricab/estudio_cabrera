@@ -25,6 +25,11 @@ button:hover {
   color: black;
 }
 
+.card-body a {
+  display: flex;
+  text-decoration: none;
+}
+
 /* boton para input file */
 input::-webkit-file-upload-button {
   cursor: pointer;
@@ -126,7 +131,7 @@ h2 {
   align-items: center;
   width: 150px;
   height: 150px;
-  margin-left: 250px;
+  margin-left: 235px;
   margin-right: 70px;
 }
 
