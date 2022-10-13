@@ -12,7 +12,7 @@
   color: black;
 }
 
-/* Todos los botones, menos el input file*/
+/* Formato para todos los botones, menos el input file*/
 button {
   background-color: black;
   color: white;
@@ -40,6 +40,11 @@ input::file-selector-button {
   cursor: pointer;
   padding: 12px;
   font-size: 20px;
+}
+
+/* botón del buscador */
+.boton_buscar {
+  margin-right: 20px;
 }
 
 input::-webkit-file-upload-button {
@@ -126,7 +131,7 @@ h2 {
 
 .imagen img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 /* imágenes del carrusel */
@@ -170,6 +175,7 @@ h2 {
   display: flex;
   justify-content: center;
   transform: translate(0px, -70px);
+  box-sizing: border-box;
 }
 .buscador input {
   display: flex;
@@ -184,6 +190,7 @@ h2 {
   outline: none;
   background-size: 70px;
   font-size: 30px;
+  width: 100%;
 }
 .buscador input::-moz-placeholder {
   font-size: 30px;
@@ -235,4 +242,9 @@ h2 {
 /* cards de bootstrap */
 .card p {
   text-align: justify;
+}
+
+.fila .col {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=styles.css.map */
