@@ -3,11 +3,10 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-        img {
-            display: flex;
-            width: 1300px;
-            height: 500px;
-        }
+}
+.imagen img {
+    width: 100%;
+    height: auto;
 }
 /* imágenes del carrusel */
 

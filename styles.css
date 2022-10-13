@@ -123,10 +123,10 @@ h2 {
   justify-content: center;
   margin-top: 10px;
 }
+
 .imagen img {
-  display: flex;
-  width: 1300px;
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 /* imágenes del carrusel */
