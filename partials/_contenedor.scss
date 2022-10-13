@@ -9,10 +9,12 @@
 
 .conteiner {
     margin-bottom:10px;
+    transition: all 0.7s;
     p {
         font-size: 19px;
+        
     }
-&:hover {
+    &:hover {
     background-color: $color_negro;
     color: $color_blanco;
 }
