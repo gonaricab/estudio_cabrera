@@ -2,7 +2,7 @@
 button {
     background-color: map-get($colors, color_negro);
     color: map-get($colors, color_blanco);
-    transition: all 0.5s;
+    transition: all 0.7s;
     padding: 12px;
     font-size: 20px;
     &:hover {

@@ -16,7 +16,7 @@
 button {
   background-color: black;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.7s;
   padding: 12px;
   font-size: 20px;
 }
@@ -45,14 +45,14 @@ input::file-selector-button {
 input::-webkit-file-upload-button {
   background-color: black;
   color: white;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 input::file-selector-button {
   background-color: black;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 input:hover::-webkit-file-upload-button {
   background-color: white;
@@ -142,11 +142,11 @@ h2 {
   font-size: 20px;
 }
 .barra li a {
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .barra li a:hover {
-  padding: 5px;
-  background-color: grey;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 /* barra para buscar del index */
