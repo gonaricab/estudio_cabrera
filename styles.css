@@ -247,4 +247,43 @@ h2 {
 .fila .col {
   display: flex;
   justify-content: space-around;
+}
+
+/* newsletter */
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.flex1 .newsletter {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  width: 800px;
+}
+.flex1 .newsletter h4 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: start;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.flex1 .newsletter p {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.flex1 .newsletter .boton_newsletter {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+}
+.flex1 .newsletter .boton_newsletter:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

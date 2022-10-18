@@ -24,3 +24,42 @@
     justify-content: space-around;
 }
 
+/* newsletter */
+.flex1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        background-color:#ddd;
+        width: 800px;
+        h4 {
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: start;
+            margin-left: 10px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+        .boton_newsletter {
+            margin-top: 70px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: 140px;
+            background-color: white;
+            color: black;
+            padding: 10px;
+            font-weight: bolder;
+            &:hover{
+                background-color: black;
+                color: white;
+            }   
+        }
+    }
+}
