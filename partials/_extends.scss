@@ -1,9 +1,9 @@
 %buttonInput {
     background-color: map-get($colors, color_negro);
     color: map-get($colors, color_blanco);
-    transition: all 0.5s;
+    transition: all 0.7s;
     &:hover {
         background-color: map-get($colors, color_blanco);
         color: map-get($colors, color_negro);
-}
+    }
 }

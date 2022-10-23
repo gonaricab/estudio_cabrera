@@ -16,9 +16,9 @@
 </head>
 <body class="container-fluid">
     <header class="row">
-        <section class="col titulo">
+        <div class="col titulo">
             <h1>Estudio Cabrera & Amado & Asociados</h1>
-        </section>
+        </div>
     </header> 
     <section class="row">
         <section class="col">
@@ -59,7 +59,15 @@
         <section class="col imagen">
             <img src="./images/fondo_.jpg" alt="imagen_de_fondo">
         </section>
-
+        <div class="col buscador">
+            <input type="text" placeholder="Buscar en nuestra web...">
+            <button class="boton_buscar">BUSCAR</button>
+        </div>
+       <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+            <h3 class="headerTres">Nuestro Estudio</h3>
+        </div>
+       </div>
         <section class="row">
             <section class="col contenedor fieldset conteiner">
                 <p>Continuando una tradición familiar en el derecho que comienza a fines de la década del 60, con una visión amplia de futuro y crecimiento constante, nuestro Estudio brinda <strong> servicios jurídicos de alta calidad</strong>, manteniendo actualmente los mismos principios y valores que dieron origen a su inicio.<strong> Pretendemos ser líderes</strong> en esta ciudad dentro del ámbito en que nos venimos desarrollando, contando para ello con <strong>profesionales capacitados e idóneos</strong> para cada cuestión, permanentemente actualizados, así como con un grupo de colaboradores cuidadosamente seleccionados.<br> <br>
@@ -75,24 +83,32 @@
                 </p>
             </section>
         </section>
-        <span class="row">
-            <span class="col d-flex flex-column align-items-center">
+        <div class="row">
+            <div class="col d-flex flex-column align-items-center">
                 <h2 class="headerDos">Reconocimientos:</h2>
-            </span>
-        </span>
+            </div>
+        </div>
         <section class="row">
             <section class="col">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner flex">
-                      <div class="carousel-item active">
-                        <img src="./images/Leaders-League-Logo1.png"  alt="Leaders League">
-                        <img src="./images/Logo-chambers-2022.jpg.webp"  alt="Chambers 2022">
-                        <img src="./images/World-Tax-Logo.png" alt="World Tax">
+                        <div class="carousel-item active">
+                            <img src="./images/Leaders-League-Logo1.png" class="center"  alt="Leaders_League">   
                         </div>
-                      <div class="carousel-item">
-                        <img src="./images/Logo-Global-Law-Experts.jpg"  alt="Global Law Experts">
-                        <img src="./images/Logo-Latin-Lawyer-250-Elite-Firm.png"  alt="Latin Lawyer 250">
-                        <img src="./images/pagbam-Legal500.jpg" alt="Pagbam Legal 500">
+                        <div class="carousel-item">
+                            <img src="./images/Logo-chambers-2022.jpg.webp" class="center" alt="Global Law Experts">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/pagbam-iflr1000-logo.jpg" class="center" alt="Pagbam_1000">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Logo-Global-Law-Experts.jpg" class="center" alt="Global-Law_Experts">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Logo-Latin-Lawyer-250-Elite-Firm.png" class="center" alt="Latin_Lawyer">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/pagbam-Legal500.jpg" class="center" alt="Pagbam_1500">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -106,30 +122,38 @@
                   </div>
             </section>
         </section>
-        <span class="row">
-            <span class="col d-flex flex-column align-items-center">
+        <div class="row">
+            <div class="col d-flex flex-column align-items-center">
                 <h2 class="headerDos">Ubicanos:</h2>
-            </span>
-        </span>
+            </div>
+        </div>
         <section class="row">
             <section class="col-sm 12 col-md-6 d-flex justify-content-end">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12453.249084692467!2d-62.263633!3d-38.710639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42e6bfc06cebef5!2sESTUDIO%20SCOCCIA!5e0!3m2!1ses!2sar!4v1660242176375!5m2!1ses!2sar" width="600" height="450" style="border: 3px solid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-            <section class="col-sm-12 col-md-6 p2">
+            <section class="col-sm-12 col-md-6 p2" style="margin-top: 10px">
                 <p>Mariano Moreno 268 <br> Bahía Blanca <br>Pcia. de Buenos Aires <br>República Argentina <br> 291-414172 <br>292-4567555 <br>291-144262</p>
             </section>
         </section>
     </main>
+    <section class="flex1">
+        <div class="newsletter">
+            <h4>Suscríbase a nuestros newsletters:</h4>
+            <p>Elaboramos periódicamente informes para clientes y boletines donde se analizan cambios en la legislación y cuestiones relacionadas con la industria, y su impacto en los mercados en que operan nuestros clientes.</p>
+            <br>
+            <button class="boton_newsletter">Suscribirse</button>
+        </div>
+    </section>
     <footer>
-        <section class="row">
-            <section class="col footer">
+        <div class="row">
+            <div class="col footer">
                 <a href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin_black.png" width="35px"></a>
                 <a href="https://www.facebook.com" target="_blank"><img src="./images/fb_black.png" width="35px"></a>
                 <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter_black.png" width="35px"></a>
                 <a href="https://youtube.com" target="_blank"><img src="./images/youtube_black.png" width="35px"></a>
                 <p>Bahía Blanca. Buenos Aires. Argentina. <br> 2022.Todos los derechos reservados.</p>            
-            </section>
-        </section>
+            </div>
+        </div>
     </footer>
  <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>   

@@ -1,24 +1,38 @@
+/* título: Reconocimientos */
 .headerDos {
     background-color: black;
     color: white;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
+/* titulo Estudio Cabrera Amado y Asociados */
 .titulo {
     display: flex;
     justify-content: center;
     background-color: black;
     color: white;
     h1 { 
-        font-size: 80px;
+        font-size: 65px;
         
     }
 }
-
+/* titulos Reconicmientos y Ubicanos del index; y títulos de las demás páginas */
 h2 {
     display: flex;
     justify-content: center;
     font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
 }
+
+.headerTres {
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+
 

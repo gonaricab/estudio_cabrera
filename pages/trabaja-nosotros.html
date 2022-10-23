@@ -17,9 +17,9 @@
 
 <body class="container-fluid">
     <header class="row">
-        <section class="col titulo">
+        <div class="col titulo">
             <h1>Estudio Cabrera & Amado & Asociados</h1>
-        </section>
+        </div>
     </header> 
     <section class="row">
         <section class="col">
@@ -56,51 +56,52 @@
             </nav>
         </section>
     </section>
-    <main>
+    <main class="main">
         <section class="row">
             <h2>Aplicá a nuestro Estudio:</h2>
-            <section class="col contenedor">
-                <form>
-                    <fieldset class="fieldset">
-                        <legend>Envianos tu CV:</legend>
-                        <label for="nombre_apellido">Ingresa tu nombre y apellido:</label>
-                        <input id="nombre_apellido" type="text" >
-                        <br>
-                        <label for="telefono">Ingresá tu teléfono de contacto:</label>
-                        <input id="telefono" type="number">
-                        <br>
-                        <label for="localidad">Ingresá tu localidad:</label>
-                        <input id="localidad" type="text" >
-                        <br>
-                        <label for="correo">Ingresá tu correo electrónico:</label>
-                        <input id="correo" type="email">
-                    </fieldset>
-                </form>
+            <section class="col-sm-12 col-md-6 fieldset">
+                <h3>Envianos tu CV:</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ingresá tu Nombre y Apellido:</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ingresá tu Localidad: </label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ingresá tu teléfono de Contacto:</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Ingresá tu Correo Electrónico: </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
             </section>
-            <section class="col contenedor fieldset">
-                <label for="descripcion">Escribe una breve descripción sobre ti:</label>
-                        <br>
-                        <textarea cols="60" rows="5"></textarea>
-                        <br>
-                        <label for="cv">Carga tu CV:</label>
-                        <input type="file" id="cv">
-                        <br>
-                        <br>
-                        <button>Enviar</button>
-                        <button>Cancelar</button>
+            <section class="col-sm-12 col-md-6 fieldset">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escribe una Breve Descripción:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Carga tu CV:</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>     
+                  <button>Enviar</button>   
+                  <button>Cancelar</button>
             </section>
         </section>
     </main>
     <footer>
-        <section class="row">
-            <section class="col footer">
+        <div class="row">
+            <div class="col footer">
                 <a href="https://www.linkedin.com" target="_blank"><img src="../images/linkedin_black.png" width="35px"></a>
                 <a href="https://www.facebook.com" target="_blank"><img src="../images/fb_black.png" width="35px"></a>
                 <a href="https://www.twitter.com" target="_blank"><img src="../images/twitter_black.png" width="35px"></a>
                 <a href="https://youtube.com" target="_blank"><img src="../images/youtube_black.png" width="35px"></a>
                 <p>Bahía Blanca. Buenos Aires. Argentina. <br> 2022.Todos los derechos reservados.</p>            
-            </section>
-        </section>
+            </div>
+        </div>
     </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
