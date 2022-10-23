@@ -113,13 +113,23 @@ input:hover::file-selector-button {
   font-size: 65px;
 }
 
-/* titlos Reconicmientos y Ubicanos */
+/* titulos Reconicmientos y Ubicanos del index; y títulos de las demás páginas */
 h2 {
   display: flex;
   justify-content: center;
   font-weight: bolder;
   padding: 5px;
   border-radius: 5px;
+}
+
+.headerTres {
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
 }
 
 /* imágen de fondo del index */
